@@ -1,233 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <title>Tribute Page</title>
+    </head>
+    <body>
+        <!-- ===========Header =============== -->
+        <header class="header" role="navigation">
+            <nav class="nav container">
+                <h2 class="logo">Ratan Tata</h2>
+                <ul class="nav__list" id="menu">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#career" class="nav__link">Career</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#biography" class="nav__link">Biography</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#awards" class="nav__link">Awards</a>
+                    </li>
+                </ul>
+                <div class="mobile__menu">
+                    <i class="ri-menu-line" id="menu-icon"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- ===============Main Content======================= -->
+        <main role="main">
+            <section class="container banner__container">
+                <div class="banner__image">
+                    <img src="./assets/img/ratan-tata.jpg" alt="">
+                </div>
+                <div class="about__paragraph">
+                    <div>
+                        <p class="paragraph">
+                            Ratan Naval Tata (born 28 December 1937) is an Indian industrialist,
+                philanthropist and former chairman of Tata Sons. He was chairman of
+                the Tata Group from 1990 to 2012, and interim chairman from October
+                2016 through February 2017. He continues to head its charitable
+                trusts. In 2008, he received the Padma Vibhushan, the second
+                highest civilian honour in India, after receiving the Padma Bhushan,
+                the third highest civilian honour in 2000.
+                        </p>
+                        <p class="paragraph">
+                            <!-- <hr> -->
+                            He is the son of Naval Tata, who was adopted by Ratanji Tata, son of
+                Jamsetji Tata, the founder of the Tata Group. He graduated from the
+                Cornell University College of Architecture with a bachelor's degree
+                in architecture. He joined Tata in 1961, where he worked on the
+                shop floor of Tata Steel. He later succeeded J. R. D. Tata's as
+                chairman of Tata Sons upon the latter's retirement in 1991. Under
+                his tenure the Tata Group acquired Tetley, Jaguar Land Rover, and
+                Corus, in an attempt to turn Tata from a largely India-centric group
+                into a global business. Tata is also one of the largest
+                philanthropists in the world, having donated around 60-65% of his
+                income to charity.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container career__container" id="career">
+                <div class="career__content">
+                    <h2 class="section__title">Career</h2>
+                    <hr style="margin:1rem 0;">
+                    <p class="paragraph">
+                        In the 1970s, Tata was given a managerial position in the Tata group. He achieved initial success by turning the subsidiary National Radio and Electronics (NELCO) around, only to see it collapse during an economic slowdown.[14][15] In 1991, J. R. D. Tata stepped down as chairman of Tata Sons, naming him his successor. Initially, Tata faced stiff resistance from the heads of various subsidiaries, who had a large amount of operational freedom under the senior Tata's tenure. In response, Tata implemented a number of policies designed to consolidate power, including the implementation of a retirement age, having subsidiaries report directly to the group office, and requiring subsidiaries to contribute their profit to building the Tata group brand. Tata prioritised innovation and delegated many responsibilities to younger talent.[16] Under his leadership, overlapping operations between subsidiaries were streamlined into company-wide operations, with the group exiting unrelated businesses to take on globalisation.
+                    </p>
+                </div>
+                <div class="slide__container">
+                    <div class="slide">
+                        <img src="./assets/img/slide1.jpg" alt="" height="100%">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/slide2.jpg" alt="" height="100%">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/slide3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/slide4.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/slide5.jpg" alt="">
+                    </div>
+                    <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+                    <span class="arrow next" onclick="controller(1)">&#10095</span>
+                </div>
+            </section>
+            <section class="container" id="biography">
+                <h2 class="section__title">Biography</h2>
+                <hr style="margin:1rem 0;">
+                <div class="video__container">
+                    <iframe  src="https://www.youtube.com/embed/zDhF8OMwsTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="container award__container" id="awards">
+                <h2 class="section__title">Honours and Awards</h2>
+                <hr style="margin:1rem 0;">
+                <p class="paragraph">
+                    Ratan Tata received the Padma Bhushan in 2000 and Padma Vibhushan in 2008, the third and second highest civilian honours awarded by the Government of India. Along with national civilian honours, Tata has also received various state civilian honours like 'Maharashtra Bhushan' in 2006 for his huge work in the public administration in Maharashtra and 'Assam Baibhav' in 2021 for his exceptional contribution towards furthering cancer care in Assam.
+                </p>
+                <table class="table">
+                  
+                        <tr class="table-row">
+                            <th>Name</th>
+                            <th>Awarding organisation</th>
+                            <th>Year</th>
+                        </tr>
+                    <tr class="table-row">
+                        <td>2001</td>
+                        <td>Honorary Doctor of Business Administration</td>
+                        <td>Ohio State University</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>2004</td>
+                        <td>Medal of the Oriental Republic of Uruguay</td>
+                        <td>Government of Uruguay</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>Honorary Doctor of Technology</td>
+                        <td>Asian Institute of Technology.</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>International Distinguished Achievement Award</td>
+                        <td>B'nai B'rith International</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>Honorary Doctor of Science</td>
+                        <td>University of Warwick.</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>Honorary Doctor of Science</td>
+                        <td>Indian Institute of Technology Madras</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>Responsible Capitalism Award</td>
+                        <td>For Inspiration and Recognition of Science and Technology (FIRST)</td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>Honorary Fellowship</td>
+                        <td>	The London School of Economics and Political Science</td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>	Carnegie Medal of Philanthropy</td>
+                        <td>Carnegie Endowment for International Peace</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>	Honorary Doctor of Law</td>
+                        <td>University of Cambridge</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>	Honorary Doctor of Science</td>
+                        <td>	Indian Institute of Technology Kharagpur</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>Honorary Citizen Award</td>
+                        <td>	Government of Singapore</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>	Honorary Fellowship</td>
+                        <td>The Institution of Engineering and Technology</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>Inspired Leadership Award</td>
+                        <td>The Performance Theatre</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>Honorary Knight Commander of the Order of the British Empire (KBE)</td>
+                        <td>Queen Elizabeth II</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>Life Time Contribution Award in Engineering for 2008</td>
+                        <td>Indian National Academy of Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>Grand Officer of the Order of Merit of the Italian Republic</td>
+                        <td>Government of Italy</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>Honorary Doctor of Law</td>
+                        <td>University of Cambridge</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>Hadrian Award</td>
+                        <td>	World Monuments Fund</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>	Oslo Business for Peace award</td>
+                        <td>Business for Peace Foundation</td>
+                    </tr>
+                    
+                    
+                </table>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nemorphism calci</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<style>
-    body {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        user-select: none;
-        background: #ecf0f3;
-    }
-
-    .container {
-        margin-left: 1.8em;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 13px 13px 20px #cbced1,
-            -13px -13px 20px #ffffff;
-    }
-
-    .content {
-        width: 100%;
-        margin-top: 1.7em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .row button {
-        width: 60px;
-        height: 30px;
-        font-size: 16px;
-        border: none;
-        outline: none;
-        margin: 5px;
-        border-radius: 4px;
-        transition: .1s;
-        box-shadow: 5px 5px 8px #00000020,
-            -5px -5px 8px #ffff;
-    }
-
-    .row button:hover {
-        box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
-            inset -5px -5px 8px #fff;
-        background: #fff;
-    }
-
-    .display #screen {
-        margin-bottom: .5em;
-        width: auto;
-        height: 70px;
-        font-size: 35px;
-        outline: none;
-        border: none;
-        text-align: right;
-        padding-right: .5em;
-        background: #ecf0f3;
-        border-radius: 6px;
-        box-shadow: inset 8px 8px 8px #cbced1,
-            inset -8px -8px 8px #ffffff;
-    }
-
-    #eval {
-        background: #33ccff;
-        color: #fff;
-        box-shadow: inset 5px 5px 8px #66d9ff,
-            inset -5px -5px 8px #00ace6;
-    }
-
-    #eval:hover {
-        box-shadow: inset 5px 5px 8px #00ace6,
-            inset -5px -5px 8px #00ace6;
-    }
-
-    #ac {
-        background: #33cc33;
-        color: #fff;
-    }
-
-    #ac:hover {
-        box-shadow: inset 5px 5px 8px #2eb82e,
-            inset -5px -5px 8px #33cc33;
-    }
-
-    #ce {
-        background: #ff3399;
-        color: #fff;
-    }
-
-    #ce:hover {
-        box-shadow: inset 5px 5px 8px #e60073,
-            inset -5px -5px 8px #ff3399;
-    }
-</style>
-
-<body>
-
-    <div class="container">
-        <div class="display">
-            <input id="screen" type="text" placeholder="0">
-        </div>
-
-        <div class="btns">
-            <div class="row">
-                <button id="ce" onclick="backspc()">CE</button>
-                <button onclick="fact()">x!</button>
-                <button class="btn">(</button>
-                <button class="btn">)</button>
-                <button class="btn">%</button>
-                <button id="ac" onclick="screen.value=''">AC</button>
+            </section>
+        </main>
+        <!-- =============Footer=============== -->
+        <footer class="footer" role="contentinfo">
+            <h3>Sudhanshu Patel</h3>
+            <div class="socials__icon">
+                <span>Reach Me Out</span>
+                <a href="https://sudhanshupatel.vercel.app/" target="_blank"><i class="ri-global-fill"></i></a>
+                <a href="https://linkedin.com/in/sudhanshu287/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+               <a href="https://github.com/sudhanshu287/" target="_blank"> <i class="ri-github-fill"></i></a>
             </div>
-
-            <div class="row">
-                <button onclick="sin()">sin</button>
-                <button onclick="pi()">π</button>
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn">÷</button>
-            </div>
-
-            <div class="row">
-                <button onclick="cos()">cos</button>
-                <button onclick="log()">log</button>
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn">×</button>
-            </div>
-
-            <div class="row">
-                <button onclick="tan()">tan</button>
-                <button onclick="sqrt()">√</button>
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn">-</button>
-            </div>
-
-            <div class="row">
-                <button onclick="e()">e</button>
-                <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">y</span>
-                </button>
-                <button class="btn">0</button>
-                <button class="btn">.</button>
-                <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
-                <button class="btn">+</button>
-            </div>
-        </div>
-    </div>
-</body>
-<script>
-    var screen = document.querySelector('#screen');
-    var btn = document.querySelectorAll('.btn');
-
-    /*============ For getting the value of btn, Here we use for loop ============*/
-    for (item of btn) {
-        item.addEventListener('click', (e) => {
-            btntext = e.target.innerText;
-
-            if (btntext == '×') {
-                btntext = '*';
-            }
-
-            if (btntext == '÷') {
-                btntext = '/';
-            }
-            screen.value += btntext;
-        });
-    }
-
-    function sin() {
-        screen.value = Math.sin(screen.value);
-    }
-
-    function cos() {
-        screen.value = Math.cos(screen.value);
-    }
-
-    function tan() {
-        screen.value = Math.tan(screen.value);
-    }
-
-    function pow() {
-        screen.value = Math.pow(screen.value, 2);
-    }
-
-    function sqrt() {
-        screen.value = Math.sqrt(screen.value, 2);
-    }
-
-    function log() {
-        screen.value = Math.log(screen.value);
-    }
-
-    function pi() {
-        screen.value = 3.14159265359;
-    }
-
-    function e() {
-        screen.value = 2.71828182846;
-    }
-
-    function fact() {
-        var i, num, f;
-        f = 1
-        num = screen.value;
-        for (i = 1; i <= num; i++) {
-            f = f * i;
-        }
-
-        i = i - 1;
-
-        screen.value = f;
-    }
-
-    function backspc() {
-        screen.value = screen.value.substr(0, screen.value.length - 1);
-    }
-</script>
-
+        </footer>
+        <!-- ============Javascript============= -->
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
