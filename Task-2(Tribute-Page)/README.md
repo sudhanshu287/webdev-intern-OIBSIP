@@ -30,8 +30,8 @@ This is the solution of Level 2 Task 2(Tribute Page)
 ### Links
 
 #### Tribute Page
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://webdev-intern-oibsip-project2.vercel.app/)
+- Github URL: [Click Here](https://github.com/sudhanshu287/webdev-intern-OIBSIP/tree/main/Task-2(Tribute-Page))
+- Live Site URL: [Click Here](https://webdev-intern-oibsip-project2.vercel.app/)
 
 
 

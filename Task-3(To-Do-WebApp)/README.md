@@ -31,8 +31,8 @@ This is the solution of Level 2 Task 3(To-Do App)
 
 #### To-Do App
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github URL: [Click Here](https://github.com/sudhanshu287/webdev-intern-OIBSIP/tree/main/Task-3(To-Do-WebApp))
+- Live Site URL: [Click Here](https://webdev-intern-oibsip-task-3.vercel.app/)
 
 
 

@@ -30,8 +30,8 @@ This is the solution of Level 2 Task 1(Calculator)
 ### Links
 
 #### Calculator
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://webdev-intern-oibsip.vercel.app/)
+- Github URL: [Click Here](https://github.com/sudhanshu287/webdev-intern-OIBSIP/tree/main/Task-1(Calculator))
+- Live Site URL: [Click Here](https://webdev-intern-oibsip.vercel.app/)
 
 
 

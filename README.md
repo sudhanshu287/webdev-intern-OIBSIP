@@ -22,28 +22,28 @@ In this repository I solved the Level 2 Challenge that include 2 Tasks.
 ### Screenshot
 
 #### Calculator
-![]()
+![Calculator Preview](https://github.com/sudhanshu287/webdev-intern-OIBSIP/blob/main/Task-1(Calculator)/assets/img/calculator-preview.png)
 
 #### Tribute Page
-![]()
+![Tribute Page Preview](https://github.com/sudhanshu287/webdev-intern-OIBSIP/blob/main/Task-2(Tribute-Page)/assets/img/tribute-page-preview.png)
 
 #### To-Do App
-![]()
+![To-Do Preview](https://github.com/sudhanshu287/webdev-intern-OIBSIP/blob/main/Task-3(To-Do-WebApp)/assets/img/to-do-app-preview.png)
 
 
 ### Links
 
 #### Calculator
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://webdev-intern-oibsip.vercel.app/)
+- Github URL: [Click Here](https://github.com/sudhanshu287/webdev-intern-OIBSIP/tree/main/Task-1(Calculator))
+- Live Site URL: [Click Here](https://webdev-intern-oibsip.vercel.app/)
 
 #### Tribute Page
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://webdev-intern-oibsip-project2.vercel.app/)
+- Github URL: [Click Here](https://github.com/sudhanshu287/webdev-intern-OIBSIP/tree/main/Task-2(Tribute-Page))
+- Live Site URL: [Click Here](https://webdev-intern-oibsip-project2.vercel.app/)
 
 #### To-Do App
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github URL: [Click Here](https://github.com/sudhanshu287/webdev-intern-OIBSIP/tree/main/Task-3(To-Do-WebApp))
+- Live Site URL: [Click Here](https://webdev-intern-oibsip-task-3.vercel.app/)
 
 
 
@@ -51,6 +51,7 @@ In this repository I solved the Level 2 Challenge that include 2 Tasks.
 
 ### Built with
 
+- Build with pure HTML,CSS,JS
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
