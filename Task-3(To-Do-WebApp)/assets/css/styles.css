@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;400;700;900&display=swap");
+:root {
+  --text-color: #7aa874;
+  --white-color: #fff;
+  --gradient-color-1: #d864a9;
+  --gradient-color-2: #ebb02d;
+  --button-gradient: linear-gradient(
+    50deg,
+    var(--gradient-color-2),
+    var(--gradient-color-1)
+  );
+  --gradient-1: linear-gradient(
+    135deg,
+    var(--gradient-color-1),
+    var(--gradient-color-2)
+  );
+}
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", serif;
+  
+  background: var(--gradient-1);
+}
+.container {
+  width: 100%;
+  min-height: calc(100vh - 1.2rem);
+  padding: 10px;
+}
+.todo__app {
+  background-color: var(--white-color);
+  width: 100%;
+  max-width: 450px;
+  height: max-content;
+  margin: 100px auto 20px;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.todo__app h2 {
+  color: var(--text-color);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo__app h2 img {
+  width: 30px;
+  margin-left: 15px;
+}
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 30px;
+  padding-left: 20px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.row input {
+  flex: 1;
+  max-width: 300px;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.row button {
+  outline: none;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 30px;
+  color: var(--white-color);
+  background: var(--button-gradient);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
+ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+ul li{
+    list-style-type: none;
+    margin-bottom: .4rem;
+    position: relative;
+    cursor: pointer;
+    padding: 14px 25px 10px 30px;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url(../img/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top:12px;
+    left: 2px;
+}
+ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    content: '';
+    background-image: url(../img/checked.png);
+}
+ul li span{
+    position: absolute;
+    right:10px;
+    font-size: 24px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    top:5px;
+    border-radius: 100%;
+}
+ul li span:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+footer{
+    padding-bottom: .4rem;
+    height: 1rem;
+    text-align: center;
+    color: var(--white-color);
+}
+footer a{
+    color: #46072d;
+}
+footer a:hover{
+    color:#c914818a;
+}
+@media screen and (max-width: 400px) {
+  .row {
+    flex-direction: column;
+    gap: 0.5rem;
+    background: transparent;
+  }
+  .row input {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px 30px;
+  }
+  .row button {
+    padding: 5px 20px;
+  }
+}

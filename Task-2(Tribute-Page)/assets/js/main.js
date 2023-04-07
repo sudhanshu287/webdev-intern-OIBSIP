@@ -5,10 +5,6 @@ let menu = document.getElementById("menu");
 menuBtn.addEventListener("click", () => {
     menu.classList.toggle('show__menu');
 });
-// menuBtn.addEventListener('click',()=>{
-//     menuBtn.classList.remove
-// })
-
 
 // slider JS
 let flag=0;
